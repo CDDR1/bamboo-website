@@ -159,7 +159,7 @@ textarea {
 
 /* HOME SECTION (Inicio) */
 .home-section {
-    height: 80vh;
+    height: auto;
 }
 
 .home-section-content {
