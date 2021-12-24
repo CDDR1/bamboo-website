@@ -44,6 +44,14 @@ h3 {
     text-shadow: var(--text-shadow);
 }
 
+h1 {
+    font-size: 165%;
+}
+
+h2 {
+    font-size: 150%;
+}
+
 img {
     max-width: 100%;
 }
@@ -202,7 +210,7 @@ textarea {
 /* || ABOUT SECTION (Sobre Nosotros) */
 .about-section {
     background-color: var(--secondary-color);
-    padding: 2rem 2rem 3.5rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
 }
 
 .about-cards {
@@ -231,7 +239,74 @@ textarea {
     font-size: 3.5rem;
 }
 
+.card-icon i {
+    text-shadow: var(--text-shadow);
+}
+
 .card-description {
     margin-top: 1rem;
     font-family: var(--accent-font);
+}
+
+/* || SERVICES SECTION (Servicios) */
+.services-section {
+    padding: 2rem;
+}
+
+.services-section-grid {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.grid-card {
+    border-radius: 30px;
+    padding: 2rem 1.5rem 1rem 1.5rem;
+    min-height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: var(--box-shadow);
+}
+
+.grid-card.card-1 {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.grid-card.card-2 {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+.grid-card.card-3 {
+    background-color: var(--secondary-color);
+    color: var(--grey-color);
+}
+
+.grid-card-name {
+    text-align: center;
+    color: #000;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.grid-card-description {
+    text-align: center;
+    font-weight: 400;
+}
+
+.grid-card-subjects {
+    color: #000;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.grid-card-link {
+    width: auto;
+    margin: 0 auto;
+    text-decoration: underline;
+    font-weight: 400;
 }
