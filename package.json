@@ -9,6 +9,7 @@
   "author": "Carlos Duque",
   "license": "ISC",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.4"
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "swiper": "^7.4.1"
   }
 }
