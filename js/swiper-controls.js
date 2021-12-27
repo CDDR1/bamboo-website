@@ -4,14 +4,12 @@ const swiper = new Swiper('.swiper', {
     slidesPerView: 1,
     spaceBetween: 10,
     speed: 700,
-    // effect: 'cards', 
-    // CardsEffect: {
-    //     slideShadows: true
-    // },
 
     // Autoplay 
     autoplay: {
         delay: 4000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
     },
 
     // Navigation arrows
