@@ -492,7 +492,7 @@ footer {
 .footer-contact-info {
     font-size: 1.25rem;
     font-weight: 400;
-    margin: 2.5rem 0;
+    margin: 02rem 0;
     display: flex;
     flex-flow: column;
     gap: 0.75rem;
@@ -500,7 +500,6 @@ footer {
 
 .phone-info, 
 .email-info {
-    /* margin: 2rem 0 0.5rem 0; */
     display: flex;
     align-items: center;
     justify-content: center;
