@@ -83,6 +83,10 @@ textarea {
   overflow: hidden;
 }
 
+hr {
+    border: none;
+}
+
 .section-description {
     text-align: center;
     font-family: var(--accent-font);
@@ -458,4 +462,53 @@ textarea {
 /* || FOOTER */
 footer {
     background-color: var(--primary-color);
+    padding: 2rem;
+    color: var(--white-color);
+}
+
+.footer-logo-container {
+    width: 15rem;
+}
+
+.footer-line {
+    color: var(--white-color);
+    background-color: var(--white-color);
+    height: 1.5px;
+    margin-bottom: 1rem;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav-links {
+    font-family: var(--accent-font);
+    font-size: 1.25rem;
+    display: flex;
+    gap: 0.25rem;
+}
+
+.footer-contact-info {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 2.5rem 0;
+    display: flex;
+    flex-flow: column;
+    gap: 0.75rem;
+}
+
+.phone-info, 
+.email-info {
+    /* margin: 2rem 0 0.5rem 0; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
 }
