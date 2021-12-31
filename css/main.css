@@ -9,7 +9,8 @@
     --accent-color: #00cecb;
     --grey-color: #2f394d;
     --white-color: #fff;
-    --default-letter-spacing: 0.12rem;
+    --responsive-nav-color: #e0ccfd;
+    --letter-spacing: 0.12rem;
     --body-font: 'Roboto', sans-serif;
     --titles-font: 'Archivo Black', sans-serif;
     --accent-font: 'Balsamiq Sans', sans-serif;
@@ -140,6 +141,14 @@ hr {
     padding: 1rem 1.5rem 0.3rem 1.5rem;
 }
 
+.add-bg-color {
+    background-color: var(--responsive-nav-color);
+}
+
+.nav-mobile-transition {
+    transition: background-color 0.3s 0.5s;
+}
+
 .nav-logo-container {
     width: 50%;
 }
@@ -154,26 +163,27 @@ hr {
 
 .nav-links {
     color: var(--primary-color);
-    /* height: 100%; */ /* TODO: CHECK LATER IF THIS WORKS WITH THE TRANSITION */
-    height: 12.5rem;
+    background-color: var(--responsive-nav-color);
+    height: 0;
+    overflow: hidden;
+    transition: height 0.4s ease-in;
+}
+
+.show-nav-links {
+    height: 16rem;
 }
 
 .nav-links li {
     height: 1.8rem;
-    padding: 1.25rem 0;
+    padding: 1.5rem 0;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-.nav-links li:hover {
-    background-color: #e0ccfd;
-    padding-left: 0.7rem;
-}
-
 .nav-links li a {
-    padding-left: 1.5rem;
-    font-size: 1.5rem;
-    letter-spacing: var(--default-letter-spacing);
+    font-size: 1.75rem;
+    letter-spacing: var(--letter-spacing); 
 }
 
 
@@ -205,6 +215,10 @@ hr {
     background-color: var(--primary-color);
     color: #fff;
     box-shadow: var(--box-shadow);
+}
+
+.contact-btn:hover {
+    box-shadow: none;
 }
 
 .home-img-container {
@@ -426,10 +440,11 @@ hr {
     width: 5rem;
     display: flex;
     justify-content: center;
+    box-shadow: var(--box-shadow);
 }
 
 .input-submit:hover {
-    box-shadow: var(--box-shadow);
+    box-shadow: none;
     cursor: pointer;
 }
 
@@ -454,7 +469,7 @@ hr {
 }
 
 .fa-instagram-square {
-    color: #CD486B;
+    color: #e1306c;
 }
 
 .fa-whatsapp-square {
