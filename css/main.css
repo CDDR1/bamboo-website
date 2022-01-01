@@ -362,12 +362,12 @@ hr {
     display: block;
     text-align: center;
     padding: 2rem;
-    font-size: 1.9rem;
+    font-size: 135%;
 }
 
 .slide-review {
     padding: 0 2.5rem 2rem 2.5rem;
-    font-size: 1.7rem;
+    font-size: 110%;
 }
 
 .navigation-buttons-wrapper {
@@ -542,5 +542,18 @@ footer {
 
     .grid-card {
         gap: 2.5rem;
+    }
+
+    .swiper {
+        height: 37rem;
+    }
+
+    .grid-1 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contact-form {
+        width: 90%;
     }
 }
