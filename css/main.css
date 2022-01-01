@@ -431,16 +431,16 @@ hr {
 }
 
 .input-submit {
-    padding: 0.5rem 5rem;
+    padding: 0.5rem 2.5rem;
     border-radius: 7px;
     background-color: var(--primary-color);
     color: var(--white-color);
     font-weight: 500;
     font-size: 1.8rem;
-    width: 5rem;
+    /* width: 5rem; */
+    box-shadow: var(--box-shadow);
     display: flex;
     justify-content: center;
-    box-shadow: var(--box-shadow);
 }
 
 .input-submit:hover {
@@ -533,3 +533,5 @@ footer {
     font-size: 1rem;
     font-weight: 400;
 }
+
+/* || RESPONSIVENESS */
