@@ -49,11 +49,11 @@ h3 {
 }
 
 h1 {
-    font-size: 2.475rem;
+    font-size: 165%;
 }
 
 h2 {
-    font-size: 2.25rem;
+    font-size: 150%;
 }
 
 img {
@@ -262,6 +262,7 @@ hr {
     color: var(--primary-color);
     display: inline-block;
     font-size: 3.5rem;
+    font-size: 210%;
 }
 
 .card-icon i {
@@ -314,7 +315,7 @@ hr {
 .grid-card-name {
     text-align: center;
     color: #000;
-    font-size: 2rem;
+    font-size: 135%;
     font-weight: 700;
     font-family: var(--accent-font);
 }
@@ -327,7 +328,7 @@ hr {
 .grid-card-subjects {
     color: #000;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 115%;
     font-weight: 500;
     font-family: var(--accent-font);
 }
@@ -534,3 +535,12 @@ footer {
 }
 
 /* || RESPONSIVENESS */
+@media (min-width: 375px) {
+    body {
+        font-size: 1.8rem;
+    }
+
+    .grid-card {
+        gap: 2.5rem;
+    }
+}
