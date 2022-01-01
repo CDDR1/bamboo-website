@@ -557,3 +557,10 @@ footer {
         width: 90%;
     }
 }
+
+@media (min-width: 410px) {
+    .swiper {
+        height: 40rem;
+        width: 90%;
+    }
+}
