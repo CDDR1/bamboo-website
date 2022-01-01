@@ -437,7 +437,6 @@ hr {
     color: var(--white-color);
     font-weight: 500;
     font-size: 1.8rem;
-    /* width: 5rem; */
     box-shadow: var(--box-shadow);
     display: flex;
     justify-content: center;
