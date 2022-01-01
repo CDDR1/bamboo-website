@@ -506,13 +506,13 @@ footer {
 
 .footer-nav-links {
     font-family: var(--accent-font);
-    font-size: 1.25rem;
+    font-size: 80%;
     display: flex;
     gap: 0.25rem;
 }
 
 .footer-contact-info {
-    font-size: 1.25rem;
+    font-size: 90%;
     font-weight: 400;
     margin: 2rem 0;
     display: flex;
@@ -530,7 +530,7 @@ footer {
 
 .footer-copyright {
     text-align: center;
-    font-size: 1rem;
+    font-size: 70%;
     font-weight: 400;
 }
 
@@ -559,8 +559,20 @@ footer {
 }
 
 @media (min-width: 410px) {
+    body {
+        font-size: 2rem;
+    }
+
+    .card-description {
+        margin-top: 1.75rem;
+    }
+
     .swiper {
         height: 40rem;
         width: 90%;
+    }
+
+    .social-media-links {
+        gap: 1.5rem;
     }
 }
