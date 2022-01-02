@@ -626,3 +626,52 @@ footer {
         height: 45rem;
     }
 }
+
+@media (min-width: 768px) {
+    body {
+        font-size: 3.9rem;
+    }
+
+    .home-section {
+        padding-bottom: 2rem;
+    }
+
+    .about-section {
+        padding-bottom: 4rem;
+    }
+
+    section {
+        padding-bottom: 4rem;
+    }
+
+    .show-nav-links {
+        height: 40rem;
+    }
+
+    .about-card {
+        max-width: 70rem;
+        height: 30rem;
+        padding: 3rem;
+    }
+
+    .cards-container {
+        gap: 4rem;
+    }
+
+    .services-section {
+        padding-bottom: 4rem;
+    }
+
+    .services-section-grid {
+        gap: 5rem;
+    }
+
+    .swiper {
+        height: 80rem;
+    }
+
+    .contact-form {
+        height: 60rem;
+        gap: 2rem;
+    }
+}
