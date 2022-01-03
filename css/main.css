@@ -629,49 +629,91 @@ footer {
 
 @media (min-width: 768px) {
     body {
-        font-size: 3.9rem;
+        font-size: 1.8rem;
     }
 
-    .home-section {
-        padding-bottom: 2rem;
+    header {
+        padding-top: 2rem;
     }
 
-    .about-section {
-        padding-bottom: 4rem;
+    .main-nav {
+        display: grid;
+        grid-template-columns: 35% 55%;
+        justify-content: space-between;
     }
 
-    section {
-        padding-bottom: 4rem;
+    .nav-mobile {
+        display: block;
     }
 
-    .show-nav-links {
-        height: 40rem;
+    .nav-logo-container {
+        width: auto;
     }
 
-    .about-card {
-        max-width: 70rem;
-        height: 30rem;
-        padding: 3rem;
+    .hamburger-menu {
+        display: none;
     }
 
-    .cards-container {
-        gap: 4rem;
+    .nav-links {
+        height: auto;
+        background-color: var(--white-color);
+        padding: 1rem 1.5rem 0.3rem 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    .services-section {
-        padding-bottom: 4rem;
+    .nav-links ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
     }
 
-    .services-section-grid {
-        gap: 5rem;
+    .nav-links li {
+        display: inline-block;
+        height: auto;
+        padding: 0;
     }
 
-    .swiper {
-        height: 80rem;
+    .nav-links li a {
+        font-size: 80%;
+        letter-spacing: 0;
     }
 
-    .contact-form {
-        height: 60rem;
+    .home-section-content {
+        margin: 0;
+    }
+
+    .home-section-content.split {
+        flex-direction: row;
+        gap: 0;
+        padding: 3rem 5rem;
+    }
+
+    .left {
+        flex-basis: 60%;
         gap: 2rem;
+
+        justify-content: center;
+    }
+
+    .left > * {
+        text-align: start;
+    }
+
+    .left > .section-description {
+        margin: 0;
+    }
+
+    .contact-btn {
+        margin: 0 auto 0 0;
+    }
+
+    .right {
+        flex-basis: 40%;
+    }
+
+    .home-img-container {
+        justify-content: flex-end;
     }
 }
