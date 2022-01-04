@@ -2,7 +2,7 @@ const swiper = new Swiper('.swiper', {
     // Optional parameters
     loop: true,   
     slidesPerView: 1,
-    spaceBetween: 10,
+    spaceBetween: 35,
     speed: 700,
 
     // Autoplay 
