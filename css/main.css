@@ -639,7 +639,7 @@ footer {
 
     .main-nav {
         display: grid;
-        grid-template-columns: 35% 55%;
+        grid-template-columns: 35% 60%;
         justify-content: space-between;
     }
 
@@ -677,7 +677,7 @@ footer {
     }
 
     .nav-links li a {
-        font-size: 80%;
+        font-size: 90%;
         letter-spacing: 0;
     }
 
