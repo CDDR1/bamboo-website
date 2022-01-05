@@ -175,7 +175,6 @@ hr {
 
 .nav-links li {
     height: 1.8rem;
-    padding: 5% 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -539,6 +538,15 @@ footer {
 }
 
 /* || RESPONSIVENESS */
+@media (min-width: 200px) {
+    .show-nav-links ul {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+
 @media (min-width: 375px) {
     body {
         font-size: 1.8rem;
