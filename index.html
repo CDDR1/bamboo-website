@@ -168,10 +168,10 @@
                 <p class="section-description">No dudes en contactarnos para obtener más informacion</p>
                 <div class="contact-section-grid">
                     <div class="grid-1">
-                        <form class="contact-form">
-                            <input type="text" class="input-name" placeholder="Nombre:" required>
-                            <input type="email" class="input-email" placeholder="Email:" required>
-                            <textarea name="" id="" cols="30" rows="10" class="input-message" placeholder="Mensaje:" required></textarea>
+                        <form id="form" class="contact-form" action="https://formspree.io/f/xeqnovzd" method="POST">
+                            <input type="text" name="name" class="input-name" placeholder="Nombre:" required>
+                            <input type="email" name="email" class="input-email" placeholder="Email:" required>
+                            <textarea name="message" cols="30" rows="10" class="input-message" placeholder="Mensaje:" required></textarea>
                             <input type="submit" class="input-submit" value="Enviar">
                         </form>
                     </div>
@@ -237,5 +237,7 @@
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <!-- Swiper Controls -->
     <script src="./js/swiper-controls.js"></script>
+    <!-- Formspree -->
+    <script src="./js/formspree.js"></script>
 </body>
 </html>
