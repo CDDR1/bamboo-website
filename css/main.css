@@ -171,6 +171,7 @@ hr {
 
 .show-nav-links {
     height: 16rem;
+    /* box-shadow: var(--box-shadow); */
 }
 
 .nav-links li {
@@ -646,8 +647,9 @@ footer {
     }
 
     .main-nav {
+        padding: 0 3rem;
         display: grid;
-        grid-template-columns: 35% 60%;
+        grid-template-columns: 35% 65%;
         justify-content: space-between;
     }
 
@@ -657,6 +659,10 @@ footer {
 
     .nav-logo-container {
         width: auto;
+    }
+
+    .nav-logo { 
+        max-width: 70%;
     }
 
     .hamburger-menu {
@@ -853,5 +859,39 @@ footer {
 
     .footer-copyright {
         margin-top: 6rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 2.4rem;
+    }
+
+    .home-section-content.split {
+        padding: 3rem 5rem 5rem 5rem;
+    }
+
+    .about-section {
+        padding: 5rem 3rem;
+    }
+
+    .about-card {
+        min-height: 27rem;
+    }
+
+    .card-icon {
+        font-size: 6rem;
+    }
+
+    .services-section {
+        padding: 5rem;
+    }
+
+    .contact-section { 
+        padding: 4rem 1.5rem 5rem 1.5rem;
+    }
+
+    .footer-logo-container {
+        width: 27%;
     }
 }
