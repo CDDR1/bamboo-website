@@ -895,3 +895,59 @@ footer {
         width: 27%;
     }
 }
+
+@media (min-width: 1280px) {
+    body {
+        font-size: 3rem;
+    }
+
+    .home-section-content.split {
+        gap: 5rem;
+    }
+
+    .about-section .section-description {
+        margin: 4rem auto;
+    }
+
+    .about-cards {
+        margin-top: 8rem;
+    }
+
+    .cards-container {
+        margin-top: 5rem;
+    }
+
+    .about-card {
+        min-height: 32rem;
+    }
+
+    .services-section-grid {
+        row-gap: 13rem;
+        column-gap: 15rem;
+        margin-top: 8rem;
+    }
+
+    .clients-section {
+        padding-bottom: 12rem;
+    }
+
+    .swiper {
+        max-width: 42rem;
+    }
+
+    .swiper-wrapper {
+        min-height: 100rem;
+    }
+
+    .slide-review {
+        font-size: 90%;
+    }
+
+    .navigation-buttons-wrapper {
+        top: 92%;
+    }
+
+    .contact-section > .section-description {
+        margin: 3rem auto 5rem auto;
+    }
+}
