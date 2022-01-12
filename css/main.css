@@ -480,10 +480,6 @@ hr {
     color: #25D366;
 }
 
-.fa-twitter-square {
-    color: #00ACEE;
-}
-
 
 /* || FOOTER */
 footer {
@@ -949,5 +945,23 @@ footer {
 
     .contact-section > .section-description {
         margin: 3rem auto 5rem auto;
+    }
+}
+
+@media (min-width: 1500px) {
+    .cards-container {
+        justify-content: space-evenly;
+    }
+
+    .grid-card-description {
+        font-size: 120%;
+    }
+
+    .contact-section-info {
+        align-items: center;
+    }
+
+    .footer-logo-container {
+        width: 20%;
     }
 }
