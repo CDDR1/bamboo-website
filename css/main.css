@@ -357,6 +357,11 @@ hr {
 .swiper-slide {
     background-color: var(--white-color);
     border-radius: 15px;
+    cursor: grab;
+}
+
+.swiper-slide:active {
+    cursor: grabbing;
 }
 
 .slide-client-name {
@@ -948,6 +953,16 @@ footer {
     }
 }
 
+@media (min-width: 1366px) {
+    .home-img {
+        width: 85%;
+    }
+
+    .services-section-grid {
+        grid-template-columns: 50rem 50rem;
+    }
+}
+
 @media (min-width: 1500px) {
     .cards-container {
         justify-content: space-evenly;
@@ -963,5 +978,32 @@ footer {
 
     .footer-logo-container {
         width: 20%;
+    }
+}
+
+@media (min-width: 1920px) {
+    .nav-links {
+        margin-left: 15rem;
+    }
+
+    .left {
+        gap: 3rem;
+        margin-left: 5rem;
+    }
+
+    .home-img-container {
+        justify-content: center;
+    }
+
+    .card-description {
+        margin-top: 4rem;
+    }
+
+    .services-section-grid {
+        grid-template-columns: 70rem 70rem;
+    }
+
+    .grid-card {
+        font-size: 120%;
     }
 }
