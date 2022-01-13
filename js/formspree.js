@@ -13,7 +13,6 @@ async function handleSubmit(e) {
 
     if (response.ok) {
         this.reset();
-        alert('Gracias por contactarnos! Nos pondremos en contacto tan pronto como nos sea posible');
     }
 };
 
