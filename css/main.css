@@ -709,7 +709,7 @@ footer {
     .left {
         flex-basis: 60%;
         gap: 2rem;
-
+        padding-right: 5rem;
         justify-content: center;
     }
 
@@ -968,8 +968,8 @@ footer {
         justify-content: space-evenly;
     }
 
-    .grid-card-description {
-        font-size: 120%;
+    .services-section-grid {
+        grid-template-rows: 50rem 50rem 50rem;
     }
 
     .contact-section-info {
@@ -1000,7 +1000,8 @@ footer {
     }
 
     .services-section-grid {
-        grid-template-columns: 70rem 70rem;
+        grid-template-columns: 60rem 60rem;
+        grid-template-rows: 60rem 60rem;
     }
 
     .grid-card {
