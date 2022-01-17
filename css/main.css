@@ -171,7 +171,6 @@ hr {
 
 .show-nav-links {
     height: 16rem;
-    /* box-shadow: var(--box-shadow); */
 }
 
 .nav-links li {
@@ -187,7 +186,7 @@ hr {
 }
 
 
-/* HOME SECTION (Inicio) */
+/* || HOME SECTION (Inicio) */
 .home-section {
     height: auto;
 }
@@ -694,6 +693,25 @@ footer {
     .nav-links li a {
         font-size: 90%;
         letter-spacing: 0;
+    }
+
+    .nav-link {
+        position: relative;
+    }
+    
+    .nav-link::after {
+        content: '';
+        position: absolute;
+        top: 110%;
+        left: 0;
+        height: 0.3rem;
+        width: 0;
+        background-color: var(--primary-color);
+        transition: width 0.5s;
+    }
+    
+    .nav-link:hover::after {
+        width: 100%;
     }
 
     .home-section-content {
